@@ -30,3 +30,55 @@
 *.exe
 *.out
 *.app
+.pio/build/nodemcuv2/.sconsign39.dblite
+.pio/build/nodemcuv2/firmware.bin
+.pio/build/nodemcuv2/firmware.elf
+.pio/build/nodemcuv2/ld/local.eagle.app.v6.common.ld
+.pio/build/project.checksum
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/.github/ISSUE_TEMPLATE.md
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/.github/PULL_REQUEST_TEMPLATE.md
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/.github/workflows/githubci.yml
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/.piopm
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/Adafruit_NeoPixel.cpp
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/Adafruit_NeoPixel.h
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/CONTRIBUTING.md
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/COPYING
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/esp.c
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/esp8266.c
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/buttoncycler/.esp8266.test.skip
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/buttoncycler/buttoncycler.ino
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/RGBWstrandtest/.esp8266.test.skip
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/RGBWstrandtest/.trinket.test.skip
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/RGBWstrandtest/RGBWstrandtest.ino
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/simple/.esp8266.test.skip
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/simple/simple.ino
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/simple_new_operator/.esp8266.test.skip
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/simple_new_operator/simple_new_operator.ino
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/strandtest/.esp8266.test.skip
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/strandtest/strandtest.ino
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/strandtest_wheel/.esp8266.test.skip
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/strandtest_wheel/strandtest_wheel.ino
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/StrandtestArduinoBLE/.arduinoble.test.only
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/StrandtestArduinoBLE/.test.skip
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/StrandtestArduinoBLE/StrandtestArduinoBLE.ino
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/StrandtestArduinoBLECallback/.arduinoble.test.only
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/StrandtestArduinoBLECallback/.test.skip
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/StrandtestArduinoBLECallback/StrandtestArduinoBLECallback.ino
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/StrandtestBLE/.arduinoble.test.only
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/StrandtestBLE/.test.skip
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/StrandtestBLE/BLESerial.cpp
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/StrandtestBLE/BLESerial.h
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/examples/StrandtestBLE/StrandtestBLE.ino
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/kendyte_k210.c
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/keywords.txt
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/library.properties
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/README.md
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/rp2040.c
+.pio/libdeps/nodemcuv2/Adafruit NeoPixel/rp2040_pio.h
+.vscode/c_cpp_properties.json
+.vscode/extensions.json
+.vscode/launch.json
+lib/Adafruit_VL53L0X/
+platformio.ini
+lib/README
+test/README
