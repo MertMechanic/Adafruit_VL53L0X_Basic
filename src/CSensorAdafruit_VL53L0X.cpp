@@ -1,11 +1,5 @@
-
-
 #include "CSensorAdafruit_VL53L0X.h"
 
-// CSensorAdafruit_VL53L0X::CSensorAdafruit_VL53L0X() : m_lox(Adafruit_VL53L0X()),
-//                                                      m_MeasureStatusOK(true)
-// {
-// }
 
 Adafruit_VL53L0X CSensorAdafruit_VL53L0X::m_lox;
 VL53L0X_RangingMeasurementData_t CSensorAdafruit_VL53L0X::m_Measure;
@@ -23,6 +17,7 @@ CSensorAdafruit_VL53L0X::~CSensorAdafruit_VL53L0X()
 
 void CSensorAdafruit_VL53L0X::initLongRange()
 {
+    // if (!CSensorAdafruit_VL53L0X::m_lox.begin())
     if (!CSensorAdafruit_VL53L0X::m_lox.begin())
     {
         Serial.println(F("Failed to boot VL53L0X"));
@@ -38,10 +33,8 @@ bool CSensorAdafruit_VL53L0X::doMeasure()
     int CurrentMeasure = 0;
     CSensorAdafruit_VL53L0X::m_lox.rangingTest(&CSensorAdafruit_VL53L0X::m_Measure, false); // pass in 'true' to get debug data printout!
     if (CSensorAdafruit_VL53L0X::m_Measure.RangeStatus != 4)
-    { // phase failures have incorrect data
+    { 
 
-        // Serial.print("Distance (mm): ");
-        // Serial.println(this->m_Measure.RangeMilliMeter);
         if (CSensorAdafruit_VL53L0X::m_Measure.RangeStatus <= 1)
         {
             CSensorAdafruit_VL53L0X::m_counterOfFailedMessures++;

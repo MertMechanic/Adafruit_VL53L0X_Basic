@@ -5,8 +5,6 @@
 class CSensorAdafruit_VL53L0X
 {
 public:
-    // CSensorAdafruit_VL53L0X();
-
     CSensorAdafruit_VL53L0X()
     {
         m_lox = Adafruit_VL53L0X();
@@ -20,7 +18,7 @@ public:
     static int  doMeasureAndGetValue();
     static int  getMiddleValue();
     static bool doMeasure();                //Call this in Interrupt!
-     static int getMeasureValue();
+    static int  getMeasureValue();
     
 
  private:
