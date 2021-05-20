@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../../Adafruit_VL53L0X_Sensor/lib/Adafruit_VL53L0X/src/Adafruit_VL53L0X.h"
+#include "Adafruit_VL53L0X.h"
 
 class CSensorAdafruit_VL53L0X
 {
