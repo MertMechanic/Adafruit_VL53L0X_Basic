@@ -5,12 +5,6 @@
 class CSensorAdafruit_VL53L0X
 {
 public:
-    CSensorAdafruit_VL53L0X()
-    {
-        m_lox = Adafruit_VL53L0X();
-        m_MeasureStatusOK = true;
-    }
-
     ~CSensorAdafruit_VL53L0X();
 
     static void initLongRange();
@@ -20,13 +14,14 @@ public:
     static bool doMeasure();                //Call this in Interrupt!
     static int  getMeasureValue();
     
+    
 
  private:
      static void addNewValueToMiddleValueArray();
      static void initMiddleValueArray();
      static bool isMeasureOk();
 
-
+ public:
      static Adafruit_VL53L0X m_lox;
      static VL53L0X_RangingMeasurementData_t m_Measure;
      static int m_MesureValue;
@@ -40,6 +35,5 @@ public:
      static const int s_MiddleValueArraySize = 10;
      static int m_MiddleValues[s_MiddleValueArraySize];
      static int m_CurrentBufferPosition;
-
 };
 

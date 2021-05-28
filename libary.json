@@ -1,24 +1,24 @@
-// {
-//     "name": "Adafruit_VL53L0X_Basic",
-//     "version": "1.0.0",
-//     "description": Basic Adafruit_VL53L0X_Sensor implementation",
-//     "keywords": "planet, happiness, people",
-//     "repository":
-//     {
-//       "type": "git",
-//       "url": "https://github.com/MertMechanic/Adafruit_VL53L0X_Basic.git"
-//     },
-//     "authors":
-//     [
-//       {
-//         "name": "Mathias Meister",
-//         "email": "booking@mertmechanic.de",
-//         "url": "https://www.mertmechanic.de"
-//       }
-//     ],
-//     "license": "GNU",
-//     "dependencies": {
-//     },
-//     "frameworks": "*",
-//     "platforms": "*"
-//   }
+{
+    "name": "Adafruit_VL53L0X_Basic",
+    "version": "1.0.0",
+    "description": Basic Adafruit_VL53L0X_Sensor implementation",
+    "keywords": "planet, happiness, people",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/MertMechanic/Adafruit_VL53L0X_Basic.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Mathias Meister",
+        "email": "booking@mertmechanic.de",
+        "url": "https://www.mertmechanic.de"
+      }
+    ],
+    "license": "GNU",
+    "dependencies": {
+    },
+    "frameworks": "*",
+    "platforms": "*"
+}

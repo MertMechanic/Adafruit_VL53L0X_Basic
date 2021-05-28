@@ -1,7 +1,6 @@
 #include "CSensorAdafruit_VL53L0X.h"
+#include "Adafruit_VL53L0X.h"
 
-
-Adafruit_VL53L0X CSensorAdafruit_VL53L0X::m_lox;
 VL53L0X_RangingMeasurementData_t CSensorAdafruit_VL53L0X::m_Measure;
 const int   CSensorAdafruit_VL53L0X::s_maxFailedMessures;
 bool        CSensorAdafruit_VL53L0X::m_MeasureStatusOK = false;
@@ -10,14 +9,24 @@ int         CSensorAdafruit_VL53L0X::m_counterOfFailedMessures;
 int         CSensorAdafruit_VL53L0X::m_MiddleValues[CSensorAdafruit_VL53L0X::s_MiddleValueArraySize];
 int         CSensorAdafruit_VL53L0X::m_CurrentBufferPosition;
 int         s_MAX_RANGE;
+Adafruit_VL53L0X CSensorAdafruit_VL53L0X::m_lox;
 
 CSensorAdafruit_VL53L0X::~CSensorAdafruit_VL53L0X()
 {
+#ifdef debug
+    Serial.println("Adafruit_VL53L0X Destructor Called");
+#endif
 }
 
 void CSensorAdafruit_VL53L0X::initLongRange()
 {
-    // if (!CSensorAdafruit_VL53L0X::m_lox.begin())
+
+    m_MeasureStatusOK = true;
+
+#ifdef debug
+    Serial.println("Adafruit_VL53L0X Init Long Range Called");
+#endif
+
     if (!CSensorAdafruit_VL53L0X::m_lox.begin())
     {
         Serial.println(F("Failed to boot VL53L0X"));
@@ -130,3 +139,4 @@ void CSensorAdafruit_VL53L0X::printSerial()
     Serial.println(CSensorAdafruit_VL53L0X::m_CurrentBufferPosition);
     //delay(250);
 }
+
