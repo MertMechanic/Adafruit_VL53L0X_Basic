@@ -30,6 +30,7 @@ void CSensorAdafruit_VL53L0X::initLongRange()
     if (!CSensorAdafruit_VL53L0X::m_lox.begin())
     {
         Serial.println(F("Failed to boot VL53L0X"));
+        Serial.println(F("Workaround - reconnect VCC and GND!!!"));
         while (1)
             ;
     }
